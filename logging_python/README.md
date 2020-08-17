@@ -4,11 +4,11 @@ AGENDA:-
 
 - How logging works
 
-# logger class is the main class that you interacts with. When you write a python program you basically takes a logger, we call one of the methods that it have and then we just pass a string
-# template and arguments to it. The logger first creates a log record that not only contains the template and the message that you have but also some in context that where is this being
-# logged. A handler would take your log record and put it into a stream. The log record is an object. Formatter takes the log records and transforms them into a string.
+logger class is the main class that you interacts with. When you write a python program you basically takes a logger, we call one of the methods that it have and then we just pass a string
+template and arguments to it. The logger first creates a log record that not only contains the template and the message that you have but also some in context that where is this being
+logged. A handler would take your log record and put it into a stream. The log record is an object. Formatter takes the log records and transforms them into a string.
 
-# Filter allows you to filter the logs on more like fine-tuned characteristics. 
+* Filter allows you to filter the logs on more like fine-tuned characteristics. 
 
 
 #################################
@@ -53,8 +53,8 @@ Formatter -> Format a LogRecord for output.
 - _checkLevel() function turns Level name into Level number.
 
 
-# LogRecord has one method: getMessage() which takes the message you got it and spot resolves it with the odds you gave it which is why you always call and pass "message format and list of
-# arguments" or "message format and dict of arguments".
+LogRecord has one method: getMessage() which takes the message you got it and spot resolves it with the odds you gave it which is why you always call and pass "message format and list of
+arguments" or "message format and dict of arguments".
 
 
 :heavy_check_mark:    
