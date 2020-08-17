@@ -38,13 +38,12 @@ LEVELS:-
 7. DEBUG = 10
 8. NOTSET = 0
 
-Every message has a "level". All of these levels are predefined. You can add your levels if you want but in the end they all become numeric levels and they are used for controlling how many
-messages really come out. We can turn the logging level down so we can get any more info while debugging and it's always compared with >=.
+Every message has a "level". All of these levels are predefined. You can add your levels if you want but in the end they all become numeric levels and they are used for controlling how many messages really come out. We can turn the logging level down so we can get any more info while debugging and it's always compared with >=.
 
-Logger -> The thing you pass log messages into.
-LogRecord -> A container of log information.
-Handler -> Something that outputs the logs.
-Formatter -> Format a LogRecord for output.
+* Logger -> The thing you pass log messages into.
+* LogRecord -> A container of log information.
+* Handler -> Something that outputs the logs.
+* Formatter -> Format a LogRecord for output.
 
 - _checkLevel() function turns Level name into Level number.
 
