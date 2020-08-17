@@ -29,14 +29,14 @@ that will retrieve a function with the string separated tokens that you pass on 
 
 LEVELS:-
 
-CRITICAL = 50
-FATAL = CRITICAL
-ERROR = 40
-WARNING = 30
-WARN = WARNING
-INFO = 20
-DEBUG = 10
-NOTSET = 0
+1. CRITICAL = 50
+2. FATAL = CRITICAL
+3. ERROR = 40
+4. WARNING = 30
+5. WARN = WARNING
+6. INFO = 20
+7. DEBUG = 10
+8. NOTSET = 0
 
 Every message has a "level". All of these levels are predefined. You can add your levels if you want but in the end they all become numeric levels and they are used for controlling how many
 messages really come out. We can turn the logging level down so we can get any more info while debugging and it's always compared with >=.
