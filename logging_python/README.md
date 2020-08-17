@@ -58,23 +58,20 @@ arguments" or "message format and dict of arguments".
 
 
 :heavy_check_mark:    
------------------------------------------------------
+
 Always call as:-
 
 log.level(msgformat, param, param, param)
 			or:
 	log.level(msgformat, {params})
------------------------------------------------------
 
 
 ::x::       
------------------------------------------------------
 
 NOT:- 
 
 log.level(msgformat.format(arg, arg))
     log.level(f'{msg}format{...}')
------------------------------------------------------
 
 
 
