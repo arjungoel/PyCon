@@ -61,7 +61,7 @@ that back-end for microserves of our data-sources.
 ## COMMANDS TO BE USED:
 
 
-### To setup dependencies (`pipenv`, `graphene`, `django` etc.) and fixture data (sqlite) using `invoke` --> `pip install invoke`
-### Check setup - lint and test code --> `invoke check`
-### Start Django Server --> `invoke start`
-### Open GraphiQL in your web browser --> `xdg-open http://localhost:8000/graphql`
+##### To setup dependencies (`pipenv`, `graphene`, `django` etc.) and fixture data (sqlite) using `invoke` --> `pip install invoke`
+##### Check setup - lint and test code --> `invoke check`
+##### Start Django Server --> `invoke start`
+##### Open GraphiQL in your web browser --> `xdg-open http://localhost:8000/graphql`
